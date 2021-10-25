@@ -1,0 +1,145 @@
+"BR_pt" :{
+        "APP" :{
+            "DISCORD_LOGIN" : "Conecte-se ao Discord.",
+        },
+        "HOME":{
+            "WIN_ONE_COINS" : "Você ganhou uma moeda.",
+            "ERROR":{
+                "TIMEOUT_ADS": {
+                    "TITLE" : "Erro antes de carregar anúncio",
+                    "TEXT":"Você está sendo limitado, você pode ver anúncios em"
+                },
+                "FAIL_LOAD_ADS":{
+                    "TITLE":null,
+                    "TEXT" : "Falha ao carregar anúncios, tente novamente."
+                },
+                "FAIL_PRESENT_ADS":{
+                    "TITLE": null,
+                    "TEXT" : "Falha ao mostrar anúncios, tente novamente."
+                },
+                "ADS_DISMISS": {
+                    "TITLE": null,
+                    "TEXT" : "Você precisa ver todo o anúncio para ganhar moeda."
+                },
+            },
+            "WELCOME_HOME" : {
+                "TITLE": "Olá {d1}",
+                "LABEL_COINS": "Você tem {d1} moedas",
+                "LABEL_WATCH_ADS": "Você pode assistir anúncios para ganhar moedas. "
+            }
+        },
+        "SERVER":{
+            "TITLE":"Aqui você pode escolher para gerenciar ou criar seu servidor(es)",
+            "LABEL": "Gerencie ou crie, escolha o que quiser.",
+            "BUTTON_1": "GERENCIAR SERVIDOR(ES)",
+            "BUTTON_2": "CRIAR SERVIDOR"
+        },
+        "MANAGE_SERVER":{
+            "TITLE": "Aqui você pode gerenciar seu servidor(es)",
+            "LABEL": "Aqui está seu servidores(es)",
+            "READY": "Pronto",
+            "SUSPEND":"Suspenso"
+        },
+        "CONFIGURE_SERVER":{
+            "TITLE": "Gerenciar",
+            "LABEL": "Você tem {d1} moedas.",
+            "BUTTONS":{
+                "UPGRADE_BUILD":{
+                    "BUTTON":"Atualizar a compilação (50 moedas)",
+                    "ERROR": {
+                        "TITLE":"Erro",
+                        "TEXT": "Você não tem moedas suficientes para atualizar seu servidor."
+                    },
+                    "SUCCESS":{
+                        "TITLE":"Tudo está certo",
+                        "TEXT":"Seu servidor foi atualizado!"
+                    }
+                },
+                "RAM_BOOST":{
+                    "BUTTON":"Impulsionar RAM (10 moedas)",
+                    "ERROR": {
+                        "TITLE":"Erro",
+                        "TEXT": "Você não tem moedas suficientes para impulsionar seu servidor."
+                    },
+                    "SUCCESS":{
+                        "TITLE":"Tudo está bem",
+                        "TEXT":"A RAM do seu servidor foi impulsionada por uma hora!"
+                    }
+                },
+                "ACCES_PANEL":{
+                    "BUTTON": "Tenha acesso ao painel",
+                    "CONFIRM":{
+                        "TITLE":"Aqui está o seu passe",
+                        "TEXT" : "Sua senha padrão é: {d1}\n E o seu nome/email é: {d2}.",
+                        "BUTTONS":{
+                            "ACCESS":"IR PARA O PAINEL",
+                            "CANCEL": "CANCELAR"
+                        }
+                    }
+                },
+                "DELETE_SERVER":{
+                    "BUTTON": "Exclua esse servidor",
+                    "CONFIRM":{
+                        "TITLE":"Excluir servidor",
+                        "TEXT" : "Você tem certeza que você quer excluir esse servidor?",
+                        "BUTTONS":{
+                            "DELETE":"EXCLUIR",
+                            "CANCEL": "CANCELAR",
+                            "DELETED":{
+                                "TITLE":"Sucesso",
+                                "TEXT": "Seu servidor foi excluído, você pode voltar para a página inicial."
+                            }
+                        }
+                    }
+                },
+                "UNSUSPEND_HOST":{
+                    "BUTTON": "Retirar suspenção da host (10 moedas)",
+                    "ERROR":{
+                        "TITLE": "Erro",
+                        "TEXT": "Você não tem moedas suficientes para retirar a suspensão do seu servidor."
+                    },
+                    "SUCCESS":{
+                        "TITLE":"Sucesso",
+                        "TEXT":"A suspensão do seu servidor foi retirada, você pode voltar a página inicial agora."
+                    }
+                },
+                "RENEW_HOST":{
+                    "BUTTON":"Renovar a host por 7 dias (10 moedas)",
+                    "ERROR":{
+                        "TITLE": "Erro",
+                        "TEXT": "Você não tem moedas suficientes para renovar seu servidor."
+                    },
+                    "SUCCESS":{
+                        "TITLE":"Sucesso",
+                        "TEXT":"Seu servidor foi renovado por 7 dias."
+                    }
+                }
+            },
+            "LABELS":{
+                "RAM_BOOST":{
+                    "TEXT":"Seu impulso da RAM",
+                    "EXPIRE":"expira em ",
+                    "EXPIRED":"está expirada"
+                },
+                "GLOBAL":"Ações globais",
+                "SERVER_END":"Seu servidor termina em {d1}." 
+            }
+        },
+        "PROFIL":{
+            "TITLE":"Olá {d1}",
+            "LABEL": "O que você quer hoje?",
+            "BUTTONS":{
+                "WEBSITE":"Ir para o site.",
+                "DISCONNECT":"Desconectar"
+            }
+        },
+        "CREATE_SERVER":{
+            "TITLE":"Aqui você pode cirar seu servidor",
+            "LABEL": "Você tem {d1} moedas",
+            "BUTTON":"Criar servidor (Custa 10 moedas)",
+            "ERROR":{
+                "COINS": "Você não tem moedas suficientes.",
+                "SERVER_NAME": "Você precisa colocar um nome para seu servidor, para criá-lo."
+            }
+        }
+    }
