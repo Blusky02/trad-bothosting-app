@@ -1,0 +1,145 @@
+{
+	"APP" :{
+			"DISCORD_LOGIN" : "Conectandose a Discord",
+		},
+		"HOME":{
+			"WIN_ONE_COINS" : "¡Has ganado 1 coin!",
+			"ERROR":{
+				"TIMEOUT_ADS": {
+					"TITLE" : "Error al cargar un anuncio",
+					"TEXT": "Tiene una tarifa limitada, puede mostrar anuncios en"
+				},
+				"FAIL_LOAD_ADS":{
+					"TITLE":null,
+					"TEXT" : "Error al cargar los anuncios, inténtelo de nuevo"
+				},
+				"FAIL_PRESENT_ADS":{
+					"TITLE": null,
+					"TEXT" : "Fallo en la presentación de anuncios, inténtelo de nuevo"
+				},
+				"ADS_DISMISS": {
+					"TITLE": null,
+					"TEXT" : "Necesita mostrar anuncios completos para ganar coins"
+				},
+			},
+			"WELCOME_HOME" : {
+				"TITLE": "Hola {d1}",
+				"LABEL_COINS": "Tienes {d1} coins",
+				"LABEL_WATCH_ADS": "Puedes ver anuncios para ganar coins"
+			}
+		},
+		"SERVER":{
+			"TITLE": "Aquí puedes elegir gestionar o crear tu(s) servidor(es)",
+			"LABEL": "Gestionar o crear, elige lo que quieras",
+			"BUTTON_1": "GESTIONAR SERVIDOR(ES)",
+			"BUTTON_2": "CREAR SERVIDOR"
+		},
+		"MANAGE_SERVER":{
+			"TITLE": "Aquí puedes gestionar tu(s) servidor(es)",
+			"LABEL": "Aquí tienes tu(s) servidor(es)",
+			"READY": "Listo",
+			"SUSPEND": "Suspendido"
+		},
+		"CONFIGURE_SERVER":{
+			"TITLE": "Gestionar",
+			"LABEL": "Tienes {d1} coins",
+			"BUTTONS":{
+				"UPGRADE_BUILD":{
+					"BUTTON": "Actualizar Servidor (50 coins)",
+					"ERROR": {
+						"TITLE": "Error",
+						"TEXTO": "No tienes suficientes coins para mejorar tu servidor"
+					},
+					"SUCCESS":{
+						"TITLE": "Todo está bien",
+						"TEXT": "¡Su servidor ha sido actualizado!"
+					}
+				},
+				"RAM_BOOST":{
+					"BUTTON": "Ram boost (10 coins)",
+					"ERROR": {
+						"TITLE": "Error",
+						"TEXTO": "No tienes suficientes coins para potenciar tu servidor"
+					},
+					"SUCCESS":{
+						"TITLE": "Todo está bien",
+						"TEXT": "¡Su servidor ha sido Ramboosted durante una hora!"
+					}
+				},
+				"ACCES_PANEL":{
+					"BUTTON": "Acceder al panel",
+					"CONFIRM":{
+						"TITLE": "Aquí tiene su pase",
+						"TEXT" : "Su contraseña por defecto es : {d1}\n y su nombre de usuario/correo electrónico es : {d2}",
+						"BUTTONS":{
+							"ACCESS": "IR AL PANEL",
+							"CANCEL": "CANCELAR"
+						}
+					}
+				},
+				"DELETE_SERVER":{
+					"BUTTON": "Eliminar este servidor",
+					"CONFIRM":{
+						"TITLE": "Borrar servidor",
+						"TEXT" : "¿Seguro que quiere eliminar este servidor?",
+						"BUTTONS":{
+							"DELETE": "Borrar",
+							"CANCEL": "CANCELAR",
+							"DELETED":{
+								"TITLE": "Éxito",
+								"TEXT": "Su servidor ha sido eliminado, puede volver a la página de inicio"
+							}
+						}
+					}
+				},
+				"UNSUSPEND_HOST":{
+					"BUTTON": "Desactivar host (10 coins)",
+					"ERROR":{
+						"TITLE": "Error",
+						"TEXT": "No tienes suficientes coins para desuspender tu servidor"
+					},
+					"SUCCESS":{
+						"TITLE": "Éxito",
+						"TEXT": "Su servidor ha sido desactivado, puede volver a la página de inicio"
+					}
+				},
+				"RENEW_HOST":{
+					"BUTTON": "Renovar Host por 7 días (10 coins)",
+					"ERROR":{
+						"TITLE": "Error",
+						"TEXT": "No tienes suficientes coins para renovar tu servidor"
+					},
+					"SUCCESS":{
+						"TITLE": "Éxito",
+						"TEXT": "Su servidor ha sido renovado por 7 días"
+					}
+				}
+			},
+			"LABELS":{
+				"RAM_BOOST":{
+					"TEXT": "Tu aumento de ram",
+					"EXPIRE": "expira en ",
+					"EXPIRED": "caducado"
+				},
+				"GLOBAL": "Acciones globales",
+				"SERVER_END": "Su servidor termina en {d1}" 
+			}
+		},
+		"PROFIL":{
+			"TITLE": "Hola {d1}",
+			"LABEL": "¿Qué quieres hoy?",
+			"BUTTONS":{
+				"WEBSITE": "Ir a la página web",
+				"DISCONNECT": "Desconectar"
+			}
+		},
+		"CREATE_SERVER":{
+			"TITLE": "Aquí puedes crear tu servidor",
+			"LABEL": "Tienes {d1} coins",
+			"BUTTON": "Crear servidor (Coste 10 coins)",
+			"ERROR":{
+				"COINS": "No tienes suficientes coins",
+				"SERVER_NAME": "Necesitas establecer un nombre al servidor, para crearlo"
+			}
+		}
+	}
