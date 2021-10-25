@@ -10,15 +10,15 @@
                     "TEXT":"You are rate limited, you can show ads in"
                 },
                 "FAIL_LOAD_ADS":{
-                    "TITLE":NULL,
+                    "TITLE": null,
                     "TEXT" : "Failed to load Ads, try again"
                 },
                 "FAIL_PRESENT_ADS":{
-                    "TITLE": NULL,
+                    "TITLE": null,
                     "TEXT" : "Failed to present Ads, try again"
                 },
                 "ADS_DISMISS": {
-                    "TITLE": NULL,
+                    "TITLE": null,
                     "TEXT" : "You need to show full ads to win coin"
                 },
             },
