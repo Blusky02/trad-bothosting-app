@@ -1,4 +1,4 @@
-{"EN_en" :{
+{
         "APP" :{
             "DISCORD_LOGIN" : "Connect to discord.",
         },
@@ -142,5 +142,4 @@
                 "SERVER_NAME": "You need to set a server Name, to create it"
             }
         }
-    }
 }
