@@ -3,7 +3,7 @@
 			"DISCORD_LOGIN" : "Connection à Discord.",
 		},
 		"HOME":{
-			"WIN_ONE_COINS" : "Vous avez gagné 1 coins",
+			"WIN_ONE_COINS" : "Vous avez gagné 1 coin",
 			"ERROR":{
 				"TIMEOUT_ADS": {
 					"TITLE" : "Erreur pendant le chargement de la pub",
@@ -11,48 +11,48 @@
 				},
 				"FAIL_LOAD_ADS":{
 					"TITLE":null,
-					"TEXT" : "Il n'as pas réussi à chargé la pub, essayé encore"
+					"TEXT" : "Nous n'avons pas réussi à charger la publicité, essayez encore"
 				},
 				"FAIL_PRESENT_ADS":{
 					"TITLE": null,
-					"TEXT" : "Il n'as pas réussi à présenté la pub, essayé encore"
+					"TEXT" : "Nous n'avons pas réussi à vous présenter la publicité, essayez encore"
 				},
 				"ADS_DISMISS": {
 					"TITLE": null,
-					"TEXT" : "Vous avez besoin de voir toute la pub pour gagné un coin"
+					"TEXT" : "Vous avez besoin de visionner toute la publicité pour gagner un coin"
 				},
 			},
 			"WELCOME_HOME" : {
 				"TITLE": "Bonjour {d1}",
 				"LABEL_COINS": "Vous avez {d1} coins",
-				"LABEL_WATCH_ADS": "Vous pouvez regardez une pub pour gagné des coins"
+				"LABEL_WATCH_ADS": "Vous pouvez regarder une publicité pour gagner des coins"
 			}
 		},
 		"SERVER":{
 			"TITLE":"Vous pouvez choisir ici de créer votre/vos serveur(s) ou de le(s) gérer",
-			"LABEL": "Créer ou gérer, choisissez ce que vous voulez",
+			"LABEL": "Créer ou gérer, choisissez ce que vous voulez faire",
 			"BUTTON_1": "Gérer vos/votre serveur(s)",
 			"BUTTON_2": "Créer votre serveur"
 		},
 		"MANAGE_SERVER":{
-			"TITLE": "Ici vous pourrez gérer vos/votre serveur(s)",
-			"LABEL": "Ici sont vos/votre serveur(s)",
+			"TITLE": "Ici vous pourrez gérer votre/vos serveur(s)",
+			"LABEL": "Ici se trouve(nt) votre/vos serveur(s)",
 			"READY": "Démarré",
 			"SUSPEND":"Suspendu"
 		},
 		"CONFIGURE_SERVER":{
 			"TITLE": "Gérer ",
-			"LABEL": "Vous avez {d1} coins",
+			"LABEL": "Vous avez {d1} coin(s)",
 			"BUTTONS":{
 				"UPGRADE_BUILD":{
-					"BUTTON":"Améliorer le build (50 coins)",
+					"BUTTON":"Améliorer la configuration du serveur (50 coins)",
 					"ERROR": {
 						"TITLE":"Erreur",
 						"TEXT": "Vous n'avez pas assez de coins pour améliorer votre serveur"
 					},
 					"SUCCESS":{
 						"TITLE":"Tout est bon",
-						"TEXT":"Votre serveur à été améliorer !"
+						"TEXT":"Votre serveur à été amélioré !"
 					}
 				},
 				"RAM_BOOST":{
@@ -63,7 +63,7 @@
 					},
 					"SUCCESS":{
 						"TITLE":"Tout est bon",
-						"TEXT":"Votre serveur à été booster avec succés !"
+						"TEXT":"Votre serveur à été boosté avec succès !"
 					}
 				},
 				"ACCES_PANEL":{
@@ -72,8 +72,8 @@
 						"TITLE":"Voici vos identifiants",
 						"TEXT" : "Votre mot de passe par défaut est : {d1}\n Et votre email/username est : {d2}",
 						"BUTTONS":{
-							"ACCESS":"Allez sur le panel",
-							"CANCEL": "Annulé"
+							"ACCESS":"Aller sur le panel",
+							"CANCEL": "Annuler"
 						}
 					}
 				},
@@ -81,37 +81,37 @@
 					"BUTTON": "Supprimer ce serveur",
 					"CONFIRM":{
 						"TITLE":"Supprimer le serveur ",
-						"TEXT" : "Êtes vous sur de vouloir supprimer ce serveur ?",
+						"TEXT" : "Êtes vous sûr de vouloir supprimer ce serveur ?",
 						"BUTTONS":{
-							"DELETE":"Supprimé",
-							"CANCEL": "Annulé",
+							"DELETE":"Supprimer",
+							"CANCEL": "Annuler",
 							"DELETED":{
-								"TITLE":"Succés",
-								"TEXT": "Votre serveur à été supprimé, vous pouvez retourné sur la page d'acceuil"
+								"TITLE":"Succès",
+								"TEXT": "Votre serveur à été supprimé, vous pouvez retourner sur la page d'acceuil"
 							}
 						}
 					}
 				},
 				"UNSUSPEND_HOST":{
-					"BUTTON": "Désuspendre (10 coins)",
+					"BUTTON": "Annuler la suspension (10 coins)",
 					"ERROR":{
 						"TITLE": "Erreur",
-						"TEXT": "Vous n'avez pas assez de coins pour désuspendre votre serveur"
+						"TEXT": "Vous n'avez pas assez de coins pour annuler la suspension de votre serveur"
 					},
 					"SUCCESS":{
-						"TITLE":"Succés",
-						"TEXT":"Votre serveur est sorti de la suspension, vous pouvez revenir sur la page d'acceuil !"
+						"TITLE":"Succès",
+						"TEXT":"Votre serveur est de nouveau disponible, vous pouvez revenir sur la page d'acceuil !"
 					}
 				},
 				"RENEW_HOST":{
-					"BUTTON":"Renouveller l'hébérgement pour 7 jours (10 coins)",
+					"BUTTON":"Renouveler l'hébérgement pour 7 jours (10 coins)",
 					"ERROR":{
 						"TITLE": "Erreur",
-						"TEXT": "Vous n'avez pas assez de coins pour renouveller votre serveur"
+						"TEXT": "Vous n'avez pas assez de coins pour renouveler votre serveur"
 					},
 					"SUCCESS":{
-						"TITLE":"Succés",
-						"TEXT":"Votre serveur à été renouveller pour 7 jours"
+						"TITLE":"Succès",
+						"TEXT":"Votre serveur a été renouvelé pour 7 jours"
 					}
 				}
 			},
@@ -122,24 +122,24 @@
 					"EXPIRED":"est expiré"
 				},
 				"GLOBAL":"Actions globales",
-				"SERVER_END":"Votre serveur fini dans {d1}" 
+				"SERVER_END":"L'hébergement de votre serveur se termine dans {d1}" 
 			}
 		},
 		"PROFIL":{
 			"TITLE":"Bonjour {d1}",
 			"LABEL": "Que voulez vous faire aujourd'hui ?",
 			"BUTTONS":{
-				"WEBSITE":"Allez sur le site web",
-				"DISCONNECT":"Ce déconnecter"
+				"WEBSITE":"Aller sur le site web",
+				"DISCONNECT":"Se déconnecter"
 			}
 		},
 		"CREATE_SERVER":{
 			"TITLE":"Ici vous pouvez créer un serveur",
-			"LABEL": "Vous avez {d1} coins",
+			"LABEL": "Vous avez {d1} coin(s)",
 			"BUTTON":"Créer un serveur (Coûte 10 coins)",
 			"ERROR":{
 				"COINS": "Vous n'avez pas assez de coins",
-				"SERVER_NAME": "Vous avez besoin de nommé votre serveur pour le créer"
+				"SERVER_NAME": "Vous avez besoin de nommer votre serveur pour le créer"
 			}
 		}
 	}
