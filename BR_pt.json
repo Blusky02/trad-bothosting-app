@@ -29,14 +29,14 @@
             }
         },
         "SERVER":{
-            "TITLE":"Aqui você pode escolher para gerenciar ou criar seu servidor(es)",
+            "TITLE":"Aqui você pode escolher para gerenciar ou criar seu(s) servidor(es)",
             "LABEL": "Gerencie ou crie, escolha o que quiser.",
             "BUTTON_1": "GERENCIAR SERVIDOR(ES)",
             "BUTTON_2": "CRIAR SERVIDOR"
         },
         "MANAGE_SERVER":{
-            "TITLE": "Aqui você pode gerenciar seu servidor(es)",
-            "LABEL": "Aqui está seu servidores(es)",
+            "TITLE": "Aqui você pode gerenciar seu(s) servidor(es)",
+            "LABEL": "Aqui está seu(s) servidores(es)",
             "READY": "Pronto",
             "SUSPEND":"Suspenso"
         },
@@ -134,7 +134,7 @@
             }
         },
         "CREATE_SERVER":{
-            "TITLE":"Aqui você pode cirar seu servidor",
+            "TITLE":"Aqui você pode criar seu servidor",
             "LABEL": "Você tem {d1} moedas",
             "BUTTON":"Criar servidor (Custa 10 moedas)",
             "ERROR":{
