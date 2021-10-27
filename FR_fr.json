@@ -1,6 +1,6 @@
 {
 		"APP" :{
-			"DISCORD_LOGIN" : "Connection à Discord.",
+			"DISCORD_LOGIN" : "Connexion à Discord.",
 		},
 		"HOME":{
 			"WIN_ONE_COINS" : "Vous avez gagné 1 coin",
@@ -52,7 +52,7 @@
 					},
 					"SUCCESS":{
 						"TITLE":"Tout est bon",
-						"TEXT":"Votre serveur à été amélioré !"
+						"TEXT":"Votre serveur a été amélioré !"
 					}
 				},
 				"RAM_BOOST":{
@@ -63,7 +63,7 @@
 					},
 					"SUCCESS":{
 						"TITLE":"Tout est bon",
-						"TEXT":"Votre serveur à été boosté avec succès !"
+						"TEXT":"Votre serveur a été boosté avec succès !"
 					}
 				},
 				"ACCES_PANEL":{
@@ -87,7 +87,7 @@
 							"CANCEL": "Annuler",
 							"DELETED":{
 								"TITLE":"Succès",
-								"TEXT": "Votre serveur à été supprimé, vous pouvez retourner sur la page d'acceuil"
+								"TEXT": "Votre serveur a été supprimé, vous pouvez retourner sur la page d'acceuil"
 							}
 						}
 					}
