@@ -52,7 +52,7 @@
 					},
 					"SUCCESS":{
 						"TITLE":"Tout est bon",
-						"TEXT":"Votre serveur à été amélioré !"
+						"TEXT":"Votre serveur a été amélioré !"
 					}
 				},
 				"RAM_BOOST":{
@@ -63,7 +63,7 @@
 					},
 					"SUCCESS":{
 						"TITLE":"Tout est bon",
-						"TEXT":"La RAM de votre serveur à été boostée pour une heure !"
+						"TEXT":"La RAM de votre serveur a été boostée pour une heure !"
 					}
 				},
 				"ACCES_PANEL":{
@@ -87,7 +87,7 @@
 							"CANCEL": "Annuler",
 							"DELETED":{
 								"TITLE":"Succès",
-								"TEXT": "Votre serveur à été supprimé, vous pouvez retourner sur la page d'accueil"
+								"TEXT": "Votre serveur a été supprimé, vous pouvez retourner sur la page d'accueil"
 							}
 						}
 					}
