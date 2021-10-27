@@ -25,7 +25,7 @@
             "WELCOME_HOME" : {
                 "TITLE": "Hello {d1}",
                 "LABEL_COINS": "You have {d1} coins",
-                "LABEL_WATCH_ADS": "You can watch ads to earn coins "
+                "LABEL_WATCH_ADS": "You can watch ads to earn coins"
             }
         },
         "SERVER":{
@@ -42,16 +42,16 @@
         },
         "CONFIGURE_SERVER":{
             "TITLE": "Manage ",
-            "LABEL": "You have {d1} coins",
+            "LABEL": "You have {d1} coin(s)",
             "BUTTONS":{
                 "UPGRADE_BUILD":{
                     "BUTTON":"Upgrade build (50 coins)",
                     "ERROR": {
                         "TITLE":"Error",
-                        "TEXT": "You don't have enought coin for update your server"
+                        "TEXT": "You don't have enough coins to upgrade your server"
                     },
                     "SUCCESS":{
-                        "TITLE":"All are good",
+                        "TITLE":"All is good",
                         "TEXT":"Your server as been upgraded !"
                     }
                 },
@@ -62,32 +62,32 @@
                         "TEXT": "You don't have enought coin for boost your server"
                     },
                     "SUCCESS":{
-                        "TITLE":"All are good",
-                        "TEXT":"Your server as been Ramboosted for one hours !"
+                        "TITLE":"All is good",
+                        "TEXT": "Your server RAM has been boosted for one hour !"
                     }
                 },
                 "ACCES_PANEL":{
-                    "BUTTON": "Get access to panel",
+                    "BUTTON": "Get access to the dashboard",
                     "CONFIRM":{
-                        "TITLE":"Here is your pass",
+                        "TITLE":"Here are your login information",
                         "TEXT" : "Your default password is : {d1}\n And your username/email is : {d2}",
                         "BUTTONS":{
-                            "ACCESS":"GO TO PANEL",
-                            "CANCEL": "CANCEL"
+                            "ACCESS":"Access to the dashboard",
+                            "CANCEL": "Cancel"
                         }
                     }
                 },
                 "DELETE_SERVER":{
                     "BUTTON": "Delete this server",
                     "CONFIRM":{
-                        "TITLE":"Delete server",
-                        "TEXT" : "Are you sure you wan't to delete this server ?",
+                        "TITLE":"Delete the server",
+                        "TEXT" : "Are you sure you want to delete this server ?",
                         "BUTTONS":{
                             "DELETE":"Delete",
-                            "CANCEL": "CANCEL",
+                            "CANCEL": "Cancel",
                             "DELETED":{
-                                "TITLE":"Succes",
-                                "TEXT": "Your server have been deleted, you can return to the Home page"
+                                "TITLE":"Success",
+                                "TEXT": "Your server has been deleted, you can return to the homepage"
                             }
                         }
                     }
@@ -96,38 +96,38 @@
                     "BUTTON": "Unsuspend host (10 coins)",
                     "ERROR":{
                         "TITLE": "Error",
-                        "TEXT": "You don't have enought coin for unsuspended your server"
+                        "TEXT": "You don't have enought coin to unsuspend your server"
                     },
                     "SUCCESS":{
                         "TITLE":"Succes",
-                        "TEXT":"Your server have been unsuspended, you can return to the Home page"
+                        "TEXT":"Your server has been unsuspended, you can return to the homepage"
                     }
                 },
                 "RENEW_HOST":{
-                    "BUTTON":"Renew Host for 7 days (10 coins)",
+                    "BUTTON":"Renew host for 7 days (10 coins)",
                     "ERROR":{
                         "TITLE": "Error",
-                        "TEXT": "You don't have enought coin for renew your server"
+                        "TEXT": "You don't have enough coins to renew your server"
                     },
                     "SUCCESS":{
-                        "TITLE":"Succes",
-                        "TEXT":"Your server have been renewed your server for 7 days"
+                        "TITLE":"Success",
+                        "TEXT":"Your server have been renewed for 7 days"
                     }
                 }
             },
             "LABELS":{
                 "RAM_BOOST":{
-                    "TEXT":"Your ram boost",
-                    "EXPIRE":"expire in ",
+                    "TEXT":"Your RAM boost",
+                    "EXPIRE":"expires in ",
                     "EXPIRED":"is expired"
                 },
                 "GLOBAL":"Global actions",
-                "SERVER_END":"Your server end in {d1}" 
+                "SERVER_END":"Your server ends in {d1}" 
             }
         },
         "PROFIL":{
             "TITLE":"Hello {d1}",
-            "LABEL": "What you want today ?",
+            "LABEL": "What do you want to do today ?",
             "BUTTONS":{
                 "WEBSITE":"Go to the website",
                 "DISCONNECT":"Disconnect"
@@ -135,11 +135,11 @@
         },
         "CREATE_SERVER":{
             "TITLE":"Here you can create your server",
-            "LABEL": "You have {d1} coins",
-            "BUTTON":"Create server (Cost 10 coins)",
+            "LABEL": "You have {d1} coin(s)",
+            "BUTTON":"Create server (Costs 10 coins)",
             "ERROR":{
-                "COINS": "You don't have enought coins",
-                "SERVER_NAME": "You need to set a server Name, to create it"
+                "COINS": "You don't have enough coins",
+                "SERVER_NAME": "You need to set a server Name to create it"
             }
         }
 }
