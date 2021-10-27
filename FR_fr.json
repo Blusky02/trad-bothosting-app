@@ -3,14 +3,14 @@
 			"DISCORD_LOGIN" : "Connexion à Discord.",
 		},
 		"HOME":{
-			"WIN_ONE_COINS" : "Vous avez gagné 1 coin",
+			"WIN_ONE_COINS" : "Vous avez gagné 1 coin !",
 			"ERROR":{
 				"TIMEOUT_ADS": {
 					"TITLE" : "Erreur pendant le chargement de la pub",
-					"TEXT":"Vous avez atteint le taux limite, vous pourrez voir une publicité dans "
+					"TEXT":"Vous avez atteint le taux limite, vous pourrez voir une publicité dans"
 				},
 				"FAIL_LOAD_ADS":{
-					"TITLE":null,
+					"TITLE": null,
 					"TEXT" : "Nous n'avons pas réussi à charger la publicité, essayez encore"
 				},
 				"FAIL_PRESENT_ADS":{
@@ -29,8 +29,8 @@
 			}
 		},
 		"SERVER":{
-			"TITLE":"Vous pouvez choisir ici de créer votre/vos serveur(s) ou de le(s) gérer",
-			"LABEL": "Créer ou gérer, choisissez ce que vous voulez faire",
+			"TITLE":"Vous pouvez choisir ici de créer ou gérer votre/vos serveur(s)",
+			"LABEL": "Gérez ou créez, choisissez ce que vous voulez faire",
 			"BUTTON_1": "Gérer vos/votre serveur(s)",
 			"BUTTON_2": "Créer votre serveur"
 		},
@@ -63,16 +63,16 @@
 					},
 					"SUCCESS":{
 						"TITLE":"Tout est bon",
-						"TEXT":"Votre serveur a été boosté avec succès !"
+						"TEXT":"La RAM de votre serveur a été boostée pour une heure !"
 					}
 				},
 				"ACCES_PANEL":{
 					"BUTTON": "Obtenir vos accès au panel",
 					"CONFIRM":{
 						"TITLE":"Voici vos identifiants",
-						"TEXT" : "Votre mot de passe par défaut est : {d1}\n Et votre email/username est : {d2}",
+						"TEXT" : "Votre mot de passe par défaut est : {d1}\n Et votre nom d'utilisateur/email est : {d2}",
 						"BUTTONS":{
-							"ACCESS":"Aller sur le panel",
+							"ACCESS": "Accéder au le panel",
 							"CANCEL": "Annuler"
 						}
 					}
@@ -87,7 +87,7 @@
 							"CANCEL": "Annuler",
 							"DELETED":{
 								"TITLE":"Succès",
-								"TEXT": "Votre serveur a été supprimé, vous pouvez retourner sur la page d'acceuil"
+								"TEXT": "Votre serveur a été supprimé, vous pouvez retourner sur la page d'accueil"
 							}
 						}
 					}
@@ -100,11 +100,11 @@
 					},
 					"SUCCESS":{
 						"TITLE":"Succès",
-						"TEXT":"Votre serveur est de nouveau disponible, vous pouvez revenir sur la page d'acceuil !"
+						"TEXT":"Votre serveur est de nouveau disponible, vous pouvez revenir sur la page d'accueil"
 					}
 				},
 				"RENEW_HOST":{
-					"BUTTON":"Renouveler l'hébérgement pour 7 jours (10 coins)",
+					"BUTTON":"Renouveler l'hébergement pour 7 jours (10 coins)",
 					"ERROR":{
 						"TITLE": "Erreur",
 						"TEXT": "Vous n'avez pas assez de coins pour renouveler votre serveur"
@@ -117,7 +117,7 @@
 			},
 			"LABELS":{
 				"RAM_BOOST":{
-					"TEXT":"Votre boost de ram",
+					"TEXT":"Votre boost de RAM",
 					"EXPIRE":"expire dans ",
 					"EXPIRED":"est expiré"
 				},
