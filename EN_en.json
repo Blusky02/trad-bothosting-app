@@ -3,7 +3,7 @@
             "DISCORD_LOGIN" : "Log in to discord.",
         },
         "HOME":{
-            "WIN_ONE_COINS" : "You have won 1 coin !",
+            "WIN_ONE_COINS" : "You have won 1 coin!",
             "ERROR":{
                 "TIMEOUT_ADS": {
                     "TITLE" : "An error occurred while loading ads",
@@ -64,13 +64,14 @@
                     "SUCCESS":{
                         "TITLE":"Everything looks good",
                         "TEXT": "Your server RAM has been boosted for one hour !"
+
                     }
                 },
                 "ACCES_PANEL":{
                     "BUTTON": "Get access to the dashboard",
                     "CONFIRM":{
                         "TITLE":"Here are your login information",
-                        "TEXT" : "Your default password is : {d1}\n And your username/email is : {d2}",
+                        "TEXT" : "Your default password is : {d1}\n And your username/email is: {d2}",
                         "BUTTONS":{
                             "ACCESS":"Access to the dashboard",
                             "CANCEL": "Cancel"

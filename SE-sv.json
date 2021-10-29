@@ -1,0 +1,145 @@
+{
+	"APP": {
+		"DISCORD_LOGIN": "Logga in med Discord."
+	},
+	"HOME": {
+		"WIN_ONE_COINS": "Du vann 1 coin !",
+		"ERROR": {
+			"TIMEOUT_ADS": {
+				"TITLE": "Fel vid laddning av reklamen",
+				"TEXT": "Du har sett för många reklamer, du måste vänta "
+			},
+			"FAIL_LOAD_ADS": {
+				"TITLE": null,
+				"TEXT": "Vi kunde inte ladda reklamen, prova igen"
+			},
+			"FAIL_PRESENT_ADS": {
+				"TITLE": null,
+				"TEXT": "Vi kunde inte visa dej reklamen, prova igen"
+			},
+			"ADS_DISMISS": {
+				"TITLE": null,
+				"TEXT": "Du måste titta reklamen till slutet eller du får inget coin"
+			}
+		},
+		"WELCOME_HOME": {
+			"TITLE": "Hej {d1}",
+			"LABEL_COINS": "Du har {d1} coins",
+			"LABEL_WATCH_ADS": "Du kann titta på reklamer för att vinna coins"
+		}
+	},
+	"SERVER": {
+		"TITLE": "Du kann välja om du vill skapa eller hantera en dedicerad server",
+		"LABEL": "Hantera eller skapa, välja vad du vill göra",
+		"BUTTON_1": "Hantera dina dedicerad servrar",
+		"BUTTON_2": "Skapa din dedicerad server"
+	},
+	"MANAGE_SERVER": {
+		"TITLE": "Här can du hantera dina dedicerad servrar",
+		"LABEL": "Här finns dina dedicerad servrar",
+		"READY": "Började",
+		"SUSPEND": "Avbruten"
+	},
+	"CONFIGURE_SERVER": {
+		"TITLE": "Hantera ",
+		"LABEL": "Du har {d1} coins",
+		"BUTTONS": {
+			"UPGRADE_BUILD": {
+				"BUTTON": "Förbättra din dedicerad server (50 coins)",
+				"ERROR": {
+					"TITLE": "Fel",
+					"TEXT": "Du har inte tillräckligt med pengar för att förbättra din dedicerad server"
+				},
+				"SUCCESS": {
+					"TITLE": "Allt är korrekt",
+					"TEXT": "Din server har förbättrats"
+				}
+			},
+			"RAM_BOOST": {
+				"BUTTON": "RAM boost (10 coins)",
+				"ERROR": {
+					"TITLE": "Fel",
+					"TEXT": "Du har inte tillräckligt med pengar för att förbättra din dedicerad server"
+				},
+				"SUCCESS": {
+					"TITLE": "Allt är korrekt",
+					"TEXT": "Din server RAM har förbättrats för 1 timme !"
+				}
+			},
+			"ACCES_PANEL": {
+				"BUTTON": "Få tillgång till dashboard",
+				"CONFIRM": {
+					"TITLE": "Här är dina lösenord och namn",
+					"TEXT": "Din lösenord är : {d1}\n Och ditt namn/email är : {d2}",
+					"BUTTONS": {
+						"ACCESS": "Få tillgång till dashboard",
+						"CANCEL": "Avbryta"
+					}
+				}
+			},
+			"DELETE_SERVER": {
+				"BUTTON": "Ta bort den server",
+				"CONFIRM": {
+					"TITLE": "Ta bort den server",
+					"TEXT": "Är du säker på att du vill ta bort den här servern?",
+					"BUTTONS": {
+						"DELETE": "Ta bort",
+						"CANCEL": "Avbryta",
+						"DELETED": {
+							"TITLE": "Framgång",
+							"TEXT": "Din server har tagits bort, du kann gå till hemsidan"
+						}
+					}
+				}
+			},
+			"UNSUSPEND_HOST": {
+				"BUTTON": "Avbryta avbruten (10 coins)",
+				"ERROR": {
+					"TITLE": "Fel",
+					"TEXT": "Du har inte tillräckligt med pengar för att avbruta din dedicerad server avbruten"
+				},
+				"SUCCESS": {
+					"TITLE": "Framgång",
+					"TEXT": "Din server är har avbrutat avbruten, du kann gå till hemsidan"
+				}
+			},
+			"RENEW_HOST": {
+				"BUTTON": "Förnya dedicerad servern för 7 dagar (10 coins)",
+				"ERROR": {
+					"TITLE": "Fel",
+					"TEXT": "Du har inte tillräckligt med pengar för att förnya din server"
+				},
+				"SUCCESS": {
+					"TITLE": "Framgång",
+					"TEXT": "Din server har förnyat för 7 dagar"
+				}
+			}
+		},
+		"LABELS": {
+			"RAM_BOOST": {
+				"TEXT": "Din RAM boost",
+				"EXPIRE": "löper ut i ",
+				"EXPIRED": "utgånget"
+			},
+			"GLOBAL": "Globala åtgärder.",
+			"SERVER_END": "Din server slutar i {d1}"
+		}
+	},
+	"PROFIL": {
+		"TITLE": "Hej {d1}",
+		"LABEL": "Vad vill du göra idag ?",
+		"BUTTONS": {
+			"WEBSITE": "Gå till website",
+			"DISCONNECT": "Logga ut"
+		}
+	},
+	"CREATE_SERVER": {
+		"TITLE": "Här du kann skapa din server",
+		"LABEL": "Du har {d1} coin(s)",
+		"BUTTON": "Skapa en server (Kostar 10 coins)",
+		"ERROR": {
+			"COINS": "Du har inte tillräckligt med pengar",
+			"SERVER_NAME": "Du måste ge ett namn till din server för att skapa den"
+		}
+	}
+}
