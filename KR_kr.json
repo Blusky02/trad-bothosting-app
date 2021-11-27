@@ -1,0 +1,146 @@
+{
+        "APP" :{
+            "DISCORD_LOGIN" : "디스코드에 로그인하기",
+        },
+        "HOME":{
+            "WIN_ONE_COINS" : "1코인을 흭득 했어요 축하드려요!",
+            "ERROR":{
+                "TIMEOUT_ADS": {
+                    "TITLE" : "광고를 불러오는데 문제가 생겼습니다.",
+                    "TEXT": "요금이 제한되어 있습니다. 광고 시청이 가능합니다."
+                },
+                "FAIL_LOAD_ADS":{
+                    "TITLE": null,
+                    "TEXT" : " 광고를 로드하는 동안 오류가 발생했습니다. 다시 시도하십시오."
+                },
+                "FAIL_PRESENT_ADS":{
+                    "TITLE": null,
+                    "TEXT" : " 광고를 표시하는 동안 오류가 발생했습니다. 다시 시도하십시오."
+                },
+                "ADS_DISMISS": {
+                    "TITLE": null,
+                    "TEXT" : "동전을 받으려면 광고를 시청해야 합니다."
+                },
+            },
+            "WELCOME_HOME" : {
+                "TITLE": "안녕하새요 {d1} 고객님!",
+                "LABEL_COINS": "당신은 {d1}개의 코인을 가지고있습니다.",
+                "LABEL_WATCH_ADS": "광고를 시청해 코인을 흭득하세요"
+            }
+        },
+        "SERVER":{
+            "TITLE":"개설 가능한 서버 개설 목록입니다. (s)",
+            "LABEL": "관리 또는 생성",
+            "BUTTON_1": "서버 관리하기(S)",
+            "BUTTON_2": "서버 생성하기"
+        },
+        "MANAGE_SERVER":{
+            "TITLE": "관리가 가능한 서버(s)",
+            "LABEL": "여기에 당신의 서버가 있습니다(s)",
+            "READY": "준비",
+            "SUSPEND":"Suspended"
+        },
+        "CONFIGURE_SERVER":{
+            "TITLE": "서버 관리 ",
+            "LABEL": "당신은 {d1}개의 코인을 가지고 있습니다.(s)",
+            "BUTTONS":{
+                "UPGRADE_BUILD":{
+                    "BUTTON":"서버 업그레이드 (50 코인)",
+                    "ERROR": {
+                        "TITLE":"에러",
+                        "TEXT": "코인이 부족하여 서버를 업그레이드할 수 없습니다."
+                    },
+                    "SUCCESS":{
+                        "TITLE":"모든게 좋아보입니다",
+                        "TEXT":"서버가 업그레이드 되었습니다!"
+                    }
+                },
+                "RAM_BOOST":{
+                    "BUTTON":"램 업그레이드 (10 코인)",
+                    "ERROR": {
+                        "TITLE":"에러",
+                        "TEXT": "램 부스트를 할만큼의 동전이 없어요"
+                    },
+                    "SUCCESS":{
+                        "TITLE":"업그레이드 성공",
+                        "TEXT": "서버 RAM이 한 시간 동안 향상되었습니다!"
+
+                    }
+                },
+                "ACCES_PANEL":{
+                    "BUTTON": "데쉬보드 권한 얻기",
+                    "CONFIRM":{
+                        "TITLE":"여기 당신의 로그인 정보입니다.",
+                        "TEXT" : "기본 비밀번호 : {d1}\n 사용자 이름/이메일 : {d2}",
+                        "BUTTONS":{
+                            "ACCESS":"데쉬보드 연결",
+                            "CANCEL": "취소"
+                        }
+                    }
+                },
+                "DELETE_SERVER":{
+                    "BUTTON": "서버 삭제",
+                    "CONFIRM":{
+                        "TITLE":"서버 삭제",
+                        "TEXT" : "정말로 서버를 삭제하고 싶습니까?",
+                        "BUTTONS":{
+                            "DELETE":"삭제",
+                            "CANCEL": "취소"
+                            "DELETED":{
+                                "TITLE":"성공",
+                                "TEXT": "Your server has been deleted, you can return to the home page"
+                            }
+                        }
+                    }
+                },
+                "UNSUSPEND_HOST":{
+                    "BUTTON": "불효 (10 코인)",
+                    "ERROR":{
+                        "TITLE": "에러",
+                        "TEXT": "You don't have enough coins to unsuspend your server"
+                    },
+                    "SUCCESS":{
+                        "TITLE":"성공",
+                        "TEXT":"Your server has been unsuspended, you can return to the homepage"
+                    }
+                },
+                "RENEW_HOST":{
+                    "BUTTON":"호스팅 기간을 7일 동안 늘리기 (10 코인)",
+                    "ERROR":{
+                        "TITLE": "에러",
+                        "TEXT": "코인이 부족합니다."
+                    },
+                    "SUCCESS":{
+                        "TITLE":"성공",
+                        "TEXT":"당신의 서버는 7일 증가 했습니다."
+                    }
+                }
+            },
+            "LABELS":{
+                "RAM_BOOST":{
+                    "TEXT":"램 부스트",
+                    "EXPIRE":"남은 시간 ",
+                    "EXPIRED":"만료됨"
+                },
+                "GLOBAL":"글로벌 행동",
+                "SERVER_END":"남은 시간 : {d1}" 
+            }
+        },
+        "PROFIL":{
+            "TITLE":"안녕하세요 {d1}님!",
+            "LABEL": "잘 지내고 있었나요? 번역 : Blusky",
+            "BUTTONS":{
+                "WEBSITE":"웹사이트로 가기",
+                "DISCONNECT":"연결해제"
+            }
+        },
+        "CREATE_SERVER":{
+            "TITLE":"여기서 서버를 개설할수 있어요",
+            "LABEL": "당신은 {d1} 개의 코인을 가지고 있어요 (s)",
+            "BUTTON":"서버개설 (10코인)",
+            "ERROR":{
+                "COINS": "코인이 부족합니다.",
+                "SERVER_NAME": "서버를 만들기 위해 서버 이름을 설정해야 합니다."
+            }
+        }
+}
