@@ -7,19 +7,19 @@
             "ERROR":{
                 "TIMEOUT_ADS": {
                     "TITLE" : "광고를 불러오는데 문제가 생겼습니다.",
-                    "TEXT":"You are rate limited, you will be able to watch ads in"
+                    "TEXT": "요금이 제한되어 있습니다. 광고 시청이 가능합니다."
                 },
                 "FAIL_LOAD_ADS":{
                     "TITLE": null,
-                    "TEXT" : "An error occurred while loading ads, try again"
+                    "TEXT" : " 광고를 로드하는 동안 오류가 발생했습니다. 다시 시도하십시오."
                 },
                 "FAIL_PRESENT_ADS":{
                     "TITLE": null,
-                    "TEXT" : "An error occurred while displaying ads, try again"
+                    "TEXT" : " 광고를 표시하는 동안 오류가 발생했습니다. 다시 시도하십시오."
                 },
                 "ADS_DISMISS": {
                     "TITLE": null,
-                    "TEXT" : "You need to watch full ads to win a coin"
+                    "TEXT" : "동전을 받으려면 광고를 시청해야 합니다."
                 },
             },
             "WELCOME_HOME" : {
@@ -48,33 +48,33 @@
                     "BUTTON":"서버 업그레이드 (50 코인)",
                     "ERROR": {
                         "TITLE":"에러",
-                        "TEXT": "You don't have enough coins to upgrade your server"
+                        "TEXT": "코인이 부족하여 서버를 업그레이드할 수 없습니다."
                     },
                     "SUCCESS":{
-                        "TITLE":"Everything looks good",
-                        "TEXT":"Your server has been upgraded !"
+                        "TITLE":"모든게 좋아보입니다",
+                        "TEXT":"서버가 업그레이드 되었습니다!"
                     }
                 },
                 "RAM_BOOST":{
                     "BUTTON":"램 업그레이드 (10 코인)",
                     "ERROR": {
                         "TITLE":"에러",
-                        "TEXT": "You don't have enought coin for boosting your server"
+                        "TEXT": "램 부스트를 할만큼의 동전이 없어요"
                     },
                     "SUCCESS":{
                         "TITLE":"업그레이드 성공",
-                        "TEXT": "Your server RAM has been boosted for one hour !"
+                        "TEXT": "서버 RAM이 한 시간 동안 향상되었습니다!"
 
                     }
                 },
                 "ACCES_PANEL":{
-                    "BUTTON": "Get access to the dashboard",
+                    "BUTTON": "데쉬보드 권한 얻기",
                     "CONFIRM":{
-                        "TITLE":"Here are your login information",
-                        "TEXT" : "Your default password is : {d1}\n And your username/email is: {d2}",
+                        "TITLE":"여기 당신의 로그인 정보입니다.",
+                        "TEXT" : "기본 비밀번호 : {d1}\n 사용자 이름/이메일 : {d2}",
                         "BUTTONS":{
-                            "ACCESS":"Access to the dashboard",
-                            "CANCEL": "Cancel"
+                            "ACCESS":"데쉬보드 연결",
+                            "CANCEL": "취소"
                         }
                     }
                 },
@@ -105,25 +105,25 @@
                     }
                 },
                 "RENEW_HOST":{
-                    "BUTTON":"Renew host for 7 days (10 coins)",
+                    "BUTTON":"호스팅 기간을 7일 동안 늘리기 (10 코인)",
                     "ERROR":{
                         "TITLE": "에러",
-                        "TEXT": "You don't have enough coins to renew your server"
+                        "TEXT": "코인이 부족합니다."
                     },
                     "SUCCESS":{
-                        "TITLE":"Success",
-                        "TEXT":"Your server have been renewed for 7 days"
+                        "TITLE":"성공",
+                        "TEXT":"당신의 서버는 7일 증가 했습니다."
                     }
                 }
             },
             "LABELS":{
                 "RAM_BOOST":{
                     "TEXT":"램 부스트",
-                    "EXPIRE":"expires in ",
-                    "EXPIRED":"is expired"
+                    "EXPIRE":"남은 시간 ",
+                    "EXPIRED":"만료됨"
                 },
-                "GLOBAL":"Global actions",
-                "SERVER_END":"Your server ends in {d1}" 
+                "GLOBAL":"글로벌 행동",
+                "SERVER_END":"남은 시간 : {d1}" 
             }
         },
         "PROFIL":{
@@ -139,8 +139,8 @@
             "LABEL": "당신은 {d1} 개의 코인을 가지고 있어요 (s)",
             "BUTTON":"서버개설 (10코인)",
             "ERROR":{
-                "COINS": "You don't have enough coins",
-                "SERVER_NAME": "You need to set a server name for creating your server"
+                "COINS": "코인이 부족합니다.",
+                "SERVER_NAME": "서버를 만들기 위해 서버 이름을 설정해야 합니다."
             }
         }
 }
